@@ -1,0 +1,11 @@
+{
+  "watch": ["src/**/*.js"],
+  "ignore": [".git", "node_modules/**/node_modules", "dist"],
+  "verbose": true,
+  "delay": 800,
+  "env": {
+    "NODE_ENV": "development",
+    "DEBUG": "server:*"
+  },
+  "exec": "npm run build && node dist/server.js"
+}

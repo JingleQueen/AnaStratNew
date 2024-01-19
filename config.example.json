@@ -1,0 +1,47 @@
+{
+  "server": {
+    "port": 4000,
+    "url": "http://localhost:4000"
+  },
+  "database": {
+    "host": "localhost",
+    "port": 27019,
+    "username": "username",
+    "password": "password",
+    "schema": "anastrat"
+  },
+  "smtp":{
+    "host":"",
+    "port":"",
+    "username":"",
+    "password":""
+  },
+  "logger": {
+    "level": "debug",
+    "transports": {
+      "console": {
+        "level": "debug"
+      },
+      "file": {
+        "level": "debug"
+      }
+    }
+  },
+  "providers": {
+    "fyers": {
+      "appId": "6PQWI1BM1Y-100",
+      "appSecret": "39P5OMUN1B",
+      "baseUrl": "https://api.fyers.in"
+    },
+    "zerodha": {
+      "apiKey": "buxf2p1qtgpt9rgo",
+      "apiSecret": "dvaa7bkvgz99mtcdbygoy63gsxzpf7bg",
+      "baseUrl": "https://kite.zerodha.com"
+    },
+    "samco":{
+      "baseUrl":"https://api.stocknote.com/login"
+    }
+  },
+  "jwtSecret": "secret",
+  "anastratAppUrl": "http://localhost:3000"
+}
